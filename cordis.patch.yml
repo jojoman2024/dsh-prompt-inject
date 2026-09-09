@@ -1,0 +1,10 @@
+# Host+client 双端插件：
+#  - host 端（src/host/index.ts）提供提示词管理 HTTP API + 注入路由 + 在目标会话
+#    下一次模型 step 前注入 system prompt section。
+#  - client 端（src/client/index.tsx）在会话头部操作区（conversation.session.header.actions）
+#    渲染「注入提示词」按钮，点击 window.open 开新标签页管理提示词。
+# 为了让 dsh-client-modules 扫描到本包并加载 client 半边，必须在 host loader
+# 里注册一个 entry（id 可不同于包名，name 为包名）。
+- insert:
+    - id: prompt-inject
+      name: dsh-prompt-inject

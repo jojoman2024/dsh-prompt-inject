@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+.codegraph/*
+!.codegraph/.gitignore
+*.log
+*.tsbuildinfo
+lib/
+README1.md
