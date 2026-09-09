@@ -15,7 +15,7 @@
 
 ![overview](docs/screenshots/overview.png)
 
-![header entry](docs/screenshots/header-entry.png)
+![header entry](docs/screenshots/inject.png)
 
 **条件注入面板**
 
