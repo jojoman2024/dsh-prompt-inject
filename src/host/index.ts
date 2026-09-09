@@ -22,7 +22,7 @@
 //  - 监听器必须在 apply() 持久作用域注册（cordis fiber 绑定：HTTP 请求 fiber 里注册会被
 //    清理导致不生效。
 
-import { loadPrompts, savePrompts, newId, getStepConfig, setStepConfig, type PromptItem, type StepConfig } from './store.ts'
+import { loadPrompts, savePrompts, newId, getStepConfig, setStepConfig, sessionStepConfig, type PromptItem, type StepConfig } from './store.ts'
 import { PANEL_PAGE_HTML } from './page.ts'
 
 const PLUGIN_BASE = '/plugins/dsh-prompt-inject'
