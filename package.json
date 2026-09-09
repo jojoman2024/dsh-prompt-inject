@@ -2,7 +2,7 @@
   "name": "@jojoman2024/dsh-prompt-inject",
   "displayName": "DSH 提示词注入",
   "description": "在会话工具条挂按钮，点击后开新标签页管理提示词；点【注入】可在当前会话下一次模型 step 前注入 prompt 到 system prompt。",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "jojoman2024",
   "repository": {
     "type": "git",
